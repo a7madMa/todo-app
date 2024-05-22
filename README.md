@@ -37,22 +37,7 @@ Project Structure
 plaintext
 Copiar código
 todo-list-app/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── components/
-│   │   ├── TodoForm.tsx
-│   │   ├── TodoItem.tsx
-│   │   └── TodoList.tsx
-│   ├── types/
-│   │   └── index.ts
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── styles.css
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
+
 Components
 App.tsx
 The main component that holds the state and logic for the Todo List application. It renders the TodoForm and TodoList components.
@@ -77,19 +62,3 @@ Scripts
 npm run dev: Starts the development server.
 npm run build: Builds the application for production.
 npm run preview: Previews the production build locally.
-Linting
-The project uses ESLint for code linting. You can run the linter with:
-
-bash
-Copiar código
-npm run lint
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
-
-css
-Copiar código
-
-Guarda este contenido en un archivo llamado `README.md` y súbelo a tu r
