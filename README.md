@@ -12,31 +12,6 @@ A simple Todo List application built with React and TypeScript. This app allows 
 - Mark tasks as complete
 - Persist tasks in localStorage
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/todo-list-app.git
-   cd todo-list-app
-Install dependencies:
-
-bash
-Copiar código
-npm install
-Start the development server:
-
-bash
-Copiar código
-npm run dev
-The app will be running at http://localhost:5173.
-
-Project Structure
-plaintext
-Copiar código
-todo-list-app/
 
 Components
 App.tsx
