@@ -1,30 +1,21 @@
-Proyecto de React y TypeScript
-Este proyecto es una aplicación de lista de tareas (Todo List) construida con React y TypeScript.
+# Todo List Application
 
-Características
-Agregar nuevas tareas
-Marcar tareas como completadas
-Editar tareas existentes
-Eliminar tareas
-Cómo ejecutar el proyecto
-Clona el repositorio
-Instala las dependencias con npm install
-Ejecuta el proyecto con npm start
-Estructura del proyecto
-El proyecto está estructurado de la siguiente manera:
+A simple Todo List application built with React and TypeScript. This app allows users to add, edit, delete, and mark tasks as complete. The application uses localStorage to persist tasks between page reloads.
 
-index.html: Punto de entrada de la aplicación.
-App.tsx: Componente principal de la aplicación.
-TodoForm.tsx: Componente del formulario para agregar nuevas tareas.
-TodoList.tsx: Componente que muestra la lista de tareas.
-TodoItem.tsx: Componente de una tarea individual en la lista.
-types.ts: Define la interfaz Todo utilizada en todo el proyecto.
-Estilos
-Los estilos de la aplicación se encuentran en el archivo index.html. Se utilizan estilos CSS puros para la estilización de los componentes.
+## Features
 
-Dependencias
-React
-TypeScript
-Vite
-Contribuir
-Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request para sugerir cambios o mejoras.
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as complete
+- Persist tasks in localStorage
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/todo-list-app.git
+   cd todo-list-app
